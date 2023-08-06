@@ -1,0 +1,110 @@
+.catCard {
+  margin:auto;
+  width: 252px;
+  height: 344px;
+  color: white;
+  border-radius: 20px;
+  // border: 2px solid black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  
+  img {
+    border-radius: 20px;
+    filter: brightness(60%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .desc {
+    font-weight: 300;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  .title {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-size:24px;
+    font-weight: 500;
+  }
+}
+
+
+
+
+
+.outerbox{
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+  overflow-wrap: normal;
+  text-decoration: none;
+  .gigCard{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display : block;
+    width: 400px;
+    background-color: rgb(230, 229, 229);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    .background{
+      border: 2px solid white;
+      box-shadow: rgba(124, 124, 124, 0.35) 0px 5px 15px;
+      border-radius: 20px;
+      margin: auto;
+      width: 400px;
+      height: 200px;
+    }
+    .pp{
+      
+      padding: 10px;
+      margin-left: 5px;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    .info{
+      
+      // border: 2px solid black;
+      
+      color: rgb(0, 0, 0);
+      align-items: center;
+      .user{
+        text-decoration: none;
+        display: flex;
+        font-size: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.818);
+        border-radius: 20px;
+        // color: black;
+        font-weight: 700;
+      }
+
+     
+    }
+
+    .details{
+      padding: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      background-color: rgba(255, 255, 255, 0.862);
+      margin-top: 5px;
+      border-radius: 20px;
+      .textinfo{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .star{
+        color: rgb(255, 123, 0);
+      }
+    }
+  }
+}

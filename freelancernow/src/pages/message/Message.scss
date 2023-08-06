@@ -1,0 +1,98 @@
+.message{
+    display: flex;
+    justify-content: center;
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      
+      
+    .container{
+        hr{
+           margin: 10px;
+        border: 2px solid rgb(112, 112, 112);
+        }
+        width: 70%;
+        margin: 40px;
+        scrollbar-width: none;
+        .messages{
+            background-color: rgba(236, 236, 236, 0.842);
+            border-radius: 20px;
+            scrollbar-width: none;
+            margin: 30px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            height: 500px;
+            overflow: scroll;
+            overflow-x: hidden;
+            // overflow-y: hidden;
+            // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+             
+                .item{
+
+                    &.owner{
+                        align-self: flex-end;
+                        flex-direction: row-reverse;
+                        p{
+                            border-radius: 20px 0px 20px 20px;
+                            background-color: rgb(66, 66, 66);
+                        }
+                    }
+
+                    display: flex;
+                    gap: 10px;
+                    max-width: 600px;
+                    img{
+                        border-radius: 50%;
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 20px;
+                        background-color: rgb(255, 148, 148);
+                        border-radius: 0px 20px 20px 20px;
+                        padding: 20px;
+                        color: white;
+                    }
+                }
+            
+        }
+        .write{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            textarea{
+                // position: fixed;
+                // bottom: 10px;
+                left: 20px;
+                font-size: 30px;
+                width: 75%;
+                height: 3rem;
+                padding: 10px;
+                border: 3px solid rgb(154, 154, 154);
+                border-radius: 20px;
+                // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+            button{
+                // position: fixed;
+                // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+                bottom: 10px;
+                right: 20px;
+                cursor: pointer;
+                border: 0px;
+                color: white;
+                border-radius: 20px;
+                font-size: 30px;
+                background-color: rgb(255, 78, 78);
+                width: 20%;
+                height: 4rem;
+                padding: 10px;
+            }
+        }
+    }
+}
+

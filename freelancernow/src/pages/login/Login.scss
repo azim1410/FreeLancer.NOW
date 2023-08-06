@@ -1,0 +1,36 @@
+.login{
+    font-weight: 400;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+    width: fit-content;
+    align-items: center;
+    border: 0px solid black;
+    display:flex;
+    background-color: rgba(227, 226, 226, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .inp{
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        width: 500px;
+    }    
+    .btn{
+        border: 0px;
+        margin: auto;
+        align-items: center;
+        display: block;
+        width: 500px;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: rgb(249, 78, 78);
+        color: #ffffff;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+}
